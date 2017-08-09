@@ -10,7 +10,6 @@ class CalculatorClass(object):
 
     def sum(self, num_list):
         """
-        Your method documentation here
+        the built-in method sum() already does what is needed
         """
-        # your sum code here
-        return "not implement yet"  # Remove this dummy line
+        return sum(num_list)
